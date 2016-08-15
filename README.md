@@ -8,12 +8,11 @@
 
  -  使用帮助
  1. 集成索引菜单控件
- 
-1.1 下载项目工程，将app同级目录下的indexview 文件夹拷贝到你的项目工程下。
-
-1.2 为项目添加依赖，File -> New -> Import Module,选中刚才拷贝的IndexView文件夹即可，如果编译出错，请参照你的项目修改IndexView的build.gradle文件
+ 1.1 下载项目工程，将app同级目录下的indexview 文件夹拷贝到你的项目工程下。
+ 1.2 为项目添加依赖，File -> New -> Import Module,选中刚才拷贝的IndexView文件夹即可，如果编译出错，请参照你的项目修改IndexView的build.gradle文件
 
 2.在项目中使用索引菜单控件
+
 2.1 在布局文件中定义索引菜单控件
 
   ```java
@@ -80,8 +79,7 @@ public class MainActivity extends AppCompatActivity implements IndexView.OnIndex
 ```
  - 关于我
 
-
 [我的网址][2]
    
   [1]: https://github.com/CB2Git/ImageBed/blob/master/IndexView/indexview.png?raw=true
-   [9]: http://www.27house.cn
+  [2]: http://www.27house.cn
