@@ -1,0 +1,15 @@
+<resources>
+    <declare-styleable name="IndexView">
+        <attr name="index" format="string" />
+        <attr name="indexBackground" format="color|reference" />
+        <attr name="indexTouchBackground" format="color|reference" />
+        <attr name="defaultTextColor" format="color" />
+        <attr name="touchTextColor" format="color" />
+        <attr name="popupBackground" format="color|reference" />
+        <attr name="popupTextColor" format="color" />
+        <attr name="popupTextSize" format="dimension" />
+        <attr name="showPopup" format="boolean" />
+        <attr name="delayTime" format="integer" />
+        <attr name="defaultSelectPosition" format="integer" />
+    </declare-styleable>
+</resources>

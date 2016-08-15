@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.enjoywatch.library.IndexView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/indexView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="6dp"
+        android:paddingTop="6dp"
+        app:defaultTextColor="#565656"
+        app:index="#ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        app:indexBackground="@drawable/index_view_normal"
+        app:indexTouchBackground="@drawable/index_view_touch"
+        app:popupBackground="@drawable/overlay_bg"
+        app:popupTextColor="#ffffff"
+        app:touchTextColor="#565656" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="当前选中:"
+        android:textSize="29sp" />
+
+</RelativeLayout>
